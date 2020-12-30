@@ -68,7 +68,19 @@
             ],
             "libraries/swagger_ui": [
                 "bower-asset/swagger-ui"
-            ]
+            ],
+            "libraries/codesnippet": {
+              "type": "package",
+              "package": {
+                "name": "ckeditor/codesnippet",
+                "version": "4.8.0",
+                "type": "drupal-library",
+                "dist": {
+                  "url": "https://download.ckeditor.com/codesnippet/releases/codesnippet_4.8.0.zip",
+                  "type": "zip"
+                }
+              }
+           }
         },
         "patches": {
             "drupal/core": {
