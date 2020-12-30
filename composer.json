@@ -30,7 +30,7 @@
     "scripts": {
         "quick-start": [
             "composer install",
-            "php docroot/core/scripts/drupal quick-start ezcontent"
+            "php docroot/core/scripts/drupal quick-start opendevportal"
         ]
     },
     "extra": {
