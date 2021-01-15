@@ -33,10 +33,6 @@
         "quick-start": [
             "composer install",
             "php docroot/core/scripts/drupal quick-start opendevportal"
-        ],
-        "post-update-cmd": [
-            "cp -R vendor/twbs/bootstrap/dist libraries/bootstrap",
-            "cp -R vendor/michelf/php-markdown libraries/php-markdown"
         ]
     },
     "extra": {
@@ -71,22 +67,7 @@
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
-            ],
-            "libraries/swagger_ui": [
-                "bower-asset/swagger-ui"
-            ],
-            "libraries/codesnippet": {
-                "type": "package",
-                "package": {
-                    "name": "ckeditor/codesnippet",
-                    "version": "4.8.0",
-                    "type": "drupal-library",
-                    "dist": {
-                        "url": "https://download.ckeditor.com/codesnippet/releases/codesnippet_4.8.0.zip",
-                        "type": "zip"
-                    }
-                }
-            }
+            ]
         },
         "patches": {
             "drupal/core": {
